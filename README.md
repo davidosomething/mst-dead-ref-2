@@ -1,0 +1,39 @@
+# Calc Life
+
+- [ ] Display monthly cash flow
+- [ ] Mortgage calculator
+- [x] Add property
+- [x] Add mortgage
+- [ ] pie chart household income by person
+- [x] attach expenses to person, pet, property
+- [ ] what is upkeep? add hint text
+- [x] move pet to own toplevel store
+- [x] calculate equity in property
+- [x] property cost excluding mortgage
+- [ ] escrow prop tax calc
+- [x] annual insurance 
+- [ ] PMI
+- [ ] interest rate as map of start date to rate
+- [ ] array field autopop with date and same rate for arm
+- [ ] stock options vesting
+- [ ] company valuation
+- [ ] extra principle payment as map of date to amount
+- [ ] bill model of start, end, amount, frequency
+- [ ] mortgage as composition of loan
+- [ ] interest first option for amortization
+- [ ] property tax for escrow refund
+- [ ] rental income on property, bill model can handle?
+- [ ] electric attached to household to estimate kwh per person
+- [ ] factor in rate and extra paym to amortization
+- [ ] compute amortization in webworker
+- [ ] mock graphql server from json for demo
+- [ ] express server to serve actual json file
+- [ ] undo redo
+- [x] move computations to lib
+- [x] delete item from its own screen (and go back to homepage, show snack bar)
+- [x] tuck delete into action menu
+- [ ] show connections as tag chips in people and properties
+- [ ] redblack expenses and incomes
+- [ ] yearly tax projection in finances
+- [ ] show savings rates per person
+- [x] move job calcs to lib

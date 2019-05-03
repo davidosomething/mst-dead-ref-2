@@ -1,0 +1,1 @@
+export { SnacksManager } from './SnacksManager';

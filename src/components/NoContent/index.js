@@ -1,0 +1,1 @@
+export { SvgNoContent } from './NoContent';

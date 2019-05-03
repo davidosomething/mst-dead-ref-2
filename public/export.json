@@ -1,0 +1,32 @@
+{
+  "households": {
+    "household0": {
+      "id": "household0",
+      "displayName": "Doe Family",
+      "people": ["person0", "person1", "person2"]
+    }
+  },
+  "people": {
+    "person1": {
+      "id": "person1",
+      "displayName": "Jane Doe",
+      "firstName": "Jane",
+      "middleName": "",
+      "lastName": "Doe"
+    },
+    "person2": {
+      "id": "person2",
+      "displayName": "Baby Doe",
+      "firstName": "Baby",
+      "middleName": "",
+      "lastName": "Doe"
+    },
+    "person0": {
+      "id": "person0",
+      "displayName": "John Doe",
+      "firstName": "John",
+      "middleName": "",
+      "lastName": "Doe"
+    }
+  }
+}
