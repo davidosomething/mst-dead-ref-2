@@ -27,6 +27,22 @@ export const Household = types.compose(
       },
     }))
     .actions((self) => ({
+      afterAttach() {
+        /**
+         * Fix a mobx/mobx-state-tree race condition
+         * Repro case: from home -> go to person, delete, go to household
+         * referencing person
+         */
+        self.fixReferenceDisposer = onPatch(self, ({ op, path, value }) => {
+          if (op === 'remove') {
+            const [source] = splitJsonPath(path);
+            if (['people', 'pets', 'properties'].includes(source)) {
+              noop();
+            }
+          }
+        });
+      },
+
       setValue(path, value) {
         return set(self, path, value);
       },
